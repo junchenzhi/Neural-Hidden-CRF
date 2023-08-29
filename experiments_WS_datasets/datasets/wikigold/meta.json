@@ -1,0 +1,51 @@
+{
+    "train_size": 1355,
+    "valid_size": 169,
+    "test_size": 170,
+    "num_labels": 9,
+    "max_length": 144,
+    "entity_types": [
+        "PER",
+        "LOC",
+        "ORG",
+        "MISC"
+    ],
+    "lf": [
+        "BTC",
+        "core_web_md",
+        "crunchbase_cased",
+        "crunchbase_uncased",
+        "full_name_detector",
+        "geo_cased",
+        "geo_uncased",
+        "misc_detector",
+        "multitoken_crunchbase_cased",
+        "multitoken_crunchbase_uncased",
+        "multitoken_geo_cased",
+        "multitoken_geo_uncased",
+        "multitoken_wiki_cased",
+        "multitoken_wiki_uncased",
+        "wiki_cased",
+        "wiki_uncased"
+    ],
+    "num_lf": 16,
+    "lf_rec": [
+        "BTC",
+        "core_web_md",
+        "crunchbase_cased",
+        "crunchbase_uncased",
+        "full_name_detector",
+        "geo_cased",
+        "geo_uncased",
+        "misc_detector",
+        "multitoken_crunchbase_cased",
+        "multitoken_crunchbase_uncased",
+        "multitoken_geo_cased",
+        "multitoken_geo_uncased",
+        "multitoken_wiki_cased",
+        "multitoken_wiki_uncased",
+        "wiki_cased",
+        "wiki_uncased"
+    ],
+    "num_lf_rec": 16
+}
