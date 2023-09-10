@@ -56,7 +56,7 @@ Note that: When applying our Neural-Hidden-CRF to other datasets, in most cases,
 Our suggested finding space is {8, 16, 32, 64, ...}, and batch size should not be set to $1$ (which would not be conducive to the challenging multi-source weak supervision learning context);
 - For the learning rate of weak source transition matrix:
 We suggest that the learning rate of weak source transition matrix be set equal to or less than the learning rate of the CRF layer;
-- For $\rho$ (in Equation 21}):
+- For $\rho$ (in Equation 21):
 Our suggested finding space is {2.0, 3.0, 4.0, 5.0, 6.0} for most cases;
 - For the pre-train of the classifier part of the model:
 We suggest using better superparameters (e.g., batch size, learning rates, etc.) for pre-train to get a better parameter initialization.
