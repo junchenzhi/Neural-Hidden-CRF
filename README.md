@@ -50,8 +50,25 @@ It obtains new state-of-the-art results on one crowdsourcing benchmark and three
 ### 2.2 Training/Evaluation
 - `bash experiments_all_datasets.sh`
 
+### 2.3 Others: Suggestions for Setting Hyperparameters
+Note that: When applying our Neural-Hidden-CRF to other datasets, in most cases, we recommend considering the following suggestions for setting hyperparameters.
+- For batch size:
+Our suggested finding space is {8, 16, 32, 64, ...}, and batch size should not be set to $1$ (which would not be conducive to the challenging multi-source weak supervision learning context);
+- For the learning rate of weak source transition matrix:
+We suggest that the learning rate of weak source transition matrix be set equal to or less than the learning rate of the CRF layer;
+- For $\rho$ (in Equation 21}):
+Our suggested finding space is {2.0, 3.0, 4.0, 5.0, 6.0} for most cases;
+- For the pre-train of the classifier part of the model:
+We suggest using better superparameters (e.g., batch size, learning rates, etc.) for pre-train to get a better parameter initialization.
 
-## 3 Some helpful materials 
+
+
+
+
+
+
+
+## 4 Some helpful materials 
 - <p align="center">
   <p>
     <a href='https://dl.acm.org/doi/pdf/10.1145/3580305.3599445'>
@@ -79,7 +96,7 @@ We believe gaining familiarity with CRFs before delving into our method would be
 
 
 
-## 4 Citation
+## 5 Citation
 
 If you find our work useful, please consider citing:
 
