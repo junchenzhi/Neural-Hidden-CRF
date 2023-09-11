@@ -68,7 +68,7 @@ We suggest using better superparameters (e.g., batch size, learning rates, etc.)
 
 
 
-## 4 Some helpful materials 
+## 3 Some helpful materials 
 - <p align="center">
   <p>
     <a href='https://dl.acm.org/doi/pdf/10.1145/3580305.3599445'>
@@ -96,7 +96,7 @@ We believe gaining familiarity with CRFs before delving into our method would be
 
 
 
-## 5 Citation
+## 4 Citation
 
 If you find our work useful, please consider citing:
 
