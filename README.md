@@ -13,7 +13,7 @@
     <a href="https://scholar.google.com/citations?user=mzXg1s8AAAAJ&hl=zh-CN">Pengpeng Chen</a>
   </p>
   <p align="center">
-    <a href='https://dl.acm.org/doi/pdf/10.1145/3580305.3599445'>
+    <a href='https://browse.arxiv.org/pdf/2309.05086.pdf'>
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
     <a href='https://www.youtube.com/watch?v=e9Z8tqzdgJk&t=7s' style='padding-left: 0.5rem;'>
@@ -44,6 +44,8 @@ In Neural-Hidden-CRF, we can capitalize on the powerful language model BERT or o
 It obtains new state-of-the-art results on one crowdsourcing benchmark and three weak-supervision benchmarks, including outperforming the recent advanced model CHMM by 2.80 F1 points and 2.23 F1 points in average generalization and inference performance, respectively.
 
 
+In addition, since our learning context is weak supervision without making use of truth labels for learning, we can also refer to such a learning task as ``weak supervision zero-shot sequence labeling learning’’.
+
 ## 2 Code
 ### 2.1 Environment
 - `conda env create -f wrench_neural_hidden_crf.yaml`
@@ -71,7 +73,7 @@ We suggest using better superparameters (e.g., batch size, learning rates, etc.)
 ## 3 Some helpful materials 
 - <p align="center">
   <p>
-    <a href='https://dl.acm.org/doi/pdf/10.1145/3580305.3599445'>
+    <a href='https://browse.arxiv.org/pdf/2309.05086.pdf'>
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
     </a>
     <a href='https://www.youtube.com/watch?v=e9Z8tqzdgJk&t=7s' style='padding-left: 0.5rem;'>
