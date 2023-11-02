@@ -29,14 +29,13 @@
   <p align="center">
     <img src="fig/model.png" alt="Logo" width="55%">
   </p>
-
 </p>
 
 
 
 
 (Note that: 
-Kindly refer to our [arXiv version paper](ttps://browse.arxiv.org/pdf/2309.05086.pdf), 
+Kindly refer to our [arXiv version paper](https://browse.arxiv.org/pdf/2309.05086.pdf), 
 as it contains additional sections that enhance the clarity of our proposed method when compared to the original version.)
 
 
