@@ -35,7 +35,10 @@
 
 
 
-<br/>
+(Note that: 
+Kindly refer to our [arXiv version paper](ttps://browse.arxiv.org/pdf/2309.05086.pdf), 
+as it contains additional sections that enhance the clarity of our proposed method when compared to the original version.)
+
 
 ## 1 Introduction
 We propose a neuralized undirected graphical model called Neural-Hidden-CRF to solve the weakly-supervised sequence labeling problem. 
